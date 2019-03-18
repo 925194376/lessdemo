@@ -4,6 +4,8 @@
 }
 #attendance-record{
   background-color: #F9F9F9;
+  padding-bottom: 20px; //后续删除
+
   .business-card{
     background-image: url("../img/bg_signhistory.png");
     background-repeat: no-repeat;
@@ -75,6 +77,34 @@
         }
       }
 
+    }
+  }
+
+  .attendance-details{
+    margin-top: 20px;
+    .attendance-date{
+      padding-left: 4px;
+      display: flex;
+      align-items: center;
+
+      i{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        border-radius: 50%;
+        background-color: #2CA9E0;
+        font-size: 14px;
+        color: #fff;
+      }
+
+      span{
+        margin-left: 8px;
+        font-size: 14px;
+      }
     }
   }
 }

@@ -4,6 +4,7 @@
 }
 #attendance-record {
   background-color: #F9F9F9;
+  padding-bottom: 20px;
 }
 #attendance-record .business-card {
   background-image: url("../img/bg_signhistory.png");
@@ -66,5 +67,30 @@
   border-radius: 50%;
   width: 30px;
   vertical-align: middle;
+}
+#attendance-record .attendance-details {
+  margin-top: 20px;
+}
+#attendance-record .attendance-details .attendance-date {
+  padding-left: 4px;
+  display: flex;
+  align-items: center;
+}
+#attendance-record .attendance-details .attendance-date i {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  border-radius: 50%;
+  background-color: #2CA9E0;
+  font-size: 14px;
+  color: #fff;
+}
+#attendance-record .attendance-details .attendance-date span {
+  margin-left: 8px;
+  font-size: 14px;
 }
 /*# sourceMappingURL=attendance-record.css.map */
