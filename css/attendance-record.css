@@ -75,6 +75,7 @@
   padding-left: 4px;
   display: flex;
   align-items: center;
+  margin-bottom: 3px;
 }
 #attendance-record .attendance-details .attendance-date i {
   display: inline-block;
@@ -92,5 +93,32 @@
 #attendance-record .attendance-details .attendance-date span {
   margin-left: 8px;
   font-size: 14px;
+}
+#attendance-record .attendance-details .attendance-time {
+  padding-top: 10px;
+  padding-left: 11px;
+  margin-left: 20px;
+  border-left: 2px solid #CCCCCC;
+  position: relative;
+}
+#attendance-record .attendance-details .attendance-time i {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #F9F9F9;
+  font-style: normal;
+  border-radius: 50%;
+  background-color: #CCCCCC;
+  position: absolute;
+  left: -6px;
+  top: 16px;
+  box-sizing: border-box;
+}
+#attendance-record .attendance-details .attendance-time p {
+  display: inline-block;
+  color: #999999;
+  font-size: 16px;
+}
+#attendance-record .attendance-details .attendance-time span {
+  font-size: 16px;
 }
 /*# sourceMappingURL=attendance-record.css.map */
