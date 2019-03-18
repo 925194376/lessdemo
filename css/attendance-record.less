@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#attendance-record{
+  background-color: #F9F9F9;
+  .business-card{
+    background-image: url("../img/bg_signhistory.png");
+    background-repeat: no-repeat;
+    padding: 8px 16px 16px 16px;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    .business-card-top{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h5{
+        margin: 0;
+        font-size:20px;
+        font-family:PingFangSC-Regular;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+      }
+
+      img{
+        vertical-align: top;
+      }
+    }
+
+    .business-card-title{
+      margin-top: 12px;
+      color: rgba(255,255,255,1);
+      font-size: 20px;
+      white-space: nowrap;
+    }
+
+    .business-card-info{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .business-card-info-l{
+        display: flex;
+        align-items: center;
+
+        img{
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          margin-right: 4.8%;
+        }
+
+        span{
+          font-size: 16px;
+          color: rgba(255,255,255,1);
+          white-space: nowrap;
+        }
+      }
+      .business-card-info-r{
+        display: flex;
+        align-items: center;
+
+        a{
+          border-radius: 50%;
+          background-color: #85D7C5;
+
+          img{
+            border-radius: 50%;
+            width: 30px;
+            vertical-align: middle;
+          }
+        }
+      }
+
+    }
+  }
+}
